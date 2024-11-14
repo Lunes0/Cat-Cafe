@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #aa41e1;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #aa41e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #f6e6ff;
+}
+
+.section-title {
+  font-family: 'Sour Gummy', cursive;
+}
+
+#sobre-estabelecimento,
+#fale-conosco {
+  background-color: rgb(255,255,255,0.7);
+}
+
+#cardapio {
+  background-color: rgb(255,150,200,0.5);
+}
+
+.text-colored {
+  color: #aa41e1;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #aa41e1;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #aa41e1;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#cardapio img {
+  border-radius: 5px;
+}
+
+@media (max-width: 767px){
+  #carousel .carousel-item img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #carousel-gatos .carousel-item img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #cardapio img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  #carousel .carousel-item img {
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #carousel-gatos .carousel-item img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+   #cardapio img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px){
+  #carousel-gatos .carousel-item img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #carousel .carousel-item img {
+    max-height: 800px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+   #cardapio img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
